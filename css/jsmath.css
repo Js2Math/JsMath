@@ -1,0 +1,169 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+
+	font: 15px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+	/*background: url('../img/bg_dotted.png') repeat;*/
+	background: #f8f8f8;
+	color: #333;
+}
+img {
+	max-width: 100%;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #3587D2;
+	
+}
+.float {
+	float: left;
+}
+/*page css*/
+div#page {
+	min-width: 1024px;
+}
+/*nav css*/
+div#nav {
+	width: 100%;
+	height: 78px;
+	background: #333;
+	/*border-bottom: #000 3px solid;*/
+}
+.navLi {
+	height: 78px;
+	background: #333;
+	overflow: hidden;
+}
+.navLi:hover {
+	/*background: #cc5502;*/
+	background: #666;
+}
+.navA {
+	display: block;
+	color: #ccc;
+	margin: 30px 20px 0;
+}
+.navA:hover {
+	color: #fff;
+}
+.logo .navA {
+	margin: 30px 100px 0;
+}
+.current {
+	background: #666;
+}
+/*content css*/
+h1 {
+	display: block;
+	font-size: 35px;
+	color: #333;
+	margin: 20px auto;
+	border-bottom: #ccc double 1px;
+}
+h2 {
+	display: block;
+	font-size: 20px;
+	color: #3587D2;
+	margin: 160px auto 10px auto;
+}
+/*poster content css*/
+div#poster {
+	width: 100%;
+	height: 500px;
+	background: url(../img/bg_poster.png) 0px -100px repeat-x;
+}
+div#poster img.poster_img {
+	margin: 100px auto auto 50%;
+}
+div#pimg1words {
+	position: absolute;
+	top: 220px;
+	left: 15%;
+}
+.pimg1word_title {
+	display: block;
+	font-size: 60px;
+}
+.pimg1word_content {
+	display: block;
+	font-size: 20px;
+	margin-top: 5px;
+	color: #3587D2;
+}
+/*introduction content css*/
+div#intro {
+	width: 80%;
+	margin: 0 10%;
+}
+p {
+	display: block;
+	margin: 20px auto;
+}
+.clearfix:after {
+	clear: both;
+	content: '';
+	display: block;
+	height: 0;
+}
+.intr_li {
+	width: 20%;
+	padding: 2.5%;
+}
+.intr_li2, .intr_li3, .intr_li4 {
+
+	background: #f9f9f9 url(../img/line_y.png) repeat-y;
+}
+strong {
+	font-size: 18px;
+	color: #3587D2;
+	/*color: #eb6100;*/
+	display: block;
+}
+.nitr_span {
+	display: block;
+	height: 150px;
+}
+div.guide {
+	display: block;
+	width: 100%;
+	height: 500px;
+}
+div.guide p{
+	margin: 0 0;
+	width:40%;
+}
+div.guide img.fimg{
+	width:40%;
+	margin: -100px 0 0 50%;
+}
+.linex_span {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+/*bottom css*/
+div#bottom {
+	width: 100%;
+	background: #333;
+	color:#ccc;
+	padding: 25px 0;
+	text-align: center;
+	font: 14px/30px Verdana, "宋体B8B\4F53";
+	border-top: #000 3px solid;
+}
