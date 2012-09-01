@@ -1,0 +1,32 @@
+{
+  "version": "1.0",
+  "name": "JsMath",
+  "description": "a easy math formula editor",
+  "icons": {
+    "72": "/img/icon-72.png",
+    
+  },
+  "developer": {
+    "name": "Js2Math",
+    "url": "http://js2math.github.com/JsMath"
+  },
+  "installs_allowed_from": ["*"],
+  "appcache_path": "/cache.manifest",
+  "orientation": "portrait,landscape-secondary",
+  "fullscreen": "true",
+  "locales": {
+    "es": {
+      "description": "a easy math formula editor",
+      "developer": {
+        "url": "http://js2math.github.com/JsMath"
+      }
+    },
+    "it": {
+      "description": "a easy math formula editor",
+      "developer": {
+        "url": "http://js2math.github.com/JsMath"
+      }
+    }
+  },
+  "default_locale": "en"
+}
